@@ -214,6 +214,8 @@ github.com/migueleliasweb/go-github-mock v0.0.16 h1:iEx6iqYASRJVoEO5eMOYpQZFTc00
 github.com/migueleliasweb/go-github-mock v0.0.16/go.mod h1:CjrgPd8s5sf5g3XSESAQqxufae+PZbgM/F317C3uD7g=
 github.com/mitchellh/go-homedir v1.1.0 h1:lukF9ziXFxDFPkA1vsr5zpc1XuPDn/wFntq5mG+4E0Y=
 github.com/mitchellh/go-homedir v1.1.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
+github.com/mxmauro/gofile-parser v1.1.1 h1:izykTR7Sf0NdKC03eHqwz43JqqqhmJlPZyct52FVMoQ=
+github.com/mxmauro/gofile-parser v1.1.1/go.mod h1:Qcs6bCshMc825FpaTDvN0zLiN7hA5w99Axt/Fu0vB2E=
 github.com/onsi/gomega v1.27.10 h1:naR28SdDFlqrG6kScpT8VWpu1xWY5nJRCF3XaYyBjhI=
 github.com/onsi/gomega v1.27.10/go.mod h1:RsS8tutOdbdgzbPtzzATp12yT7kM5I5aElG3evPbQ0M=
 github.com/opentracing/opentracing-go v1.2.0 h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs=

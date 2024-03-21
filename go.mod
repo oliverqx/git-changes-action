@@ -16,6 +16,7 @@ require (
 	github.com/google/go-github/v41 v41.0.0
 	github.com/kendru/darwin/go/depgraph v0.0.0-20221105232959-877d6a81060c
 	github.com/migueleliasweb/go-github-mock v0.0.16
+	github.com/mxmauro/gofile-parser v1.1.1
 	github.com/otiai10/copy v1.12.0
 	github.com/sethvargo/go-githubactions v1.1.0
 	github.com/stretchr/testify v1.8.4

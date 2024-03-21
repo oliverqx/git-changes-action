@@ -20,7 +20,6 @@ const defaultTimeout = "1m"
 func main() {
 	token := githubactions.GetInput("github_token")
 
-  fmt.Println("HAHAHAHAHA I FUCKING DID IT YOU FUCK")
 	workingDirectory, err := os.Getwd()
 	if err != nil {
 		panic(err)
@@ -46,7 +45,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
 	depChanged, depUnchanged, err := outputModuleChanges(workingDirectory, ct, true)
 	if err != nil {
 		panic(err)

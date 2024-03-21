@@ -47,21 +47,30 @@ func DetectChangedModules(repoPath string, ct tree.Tree, includeDeps bool) (modu
 	}
 
 	for _, module := range parsedWorkFile.Use {
+
 		changed := false
+
 		if ct.HasPath(module.Path) {
 			changed = true
 		}
-
+  
 		if includeDeps {
-			deps := depGraph[module.Path]
+      deps := depGraph[module.Path[1:]]
 			for _, dep := range deps {
+        subDeps := depGraph[dep]
 				if ct.HasPath(dep) {
 					changed = true
 				}
+
+        for _, subDep := range subDeps {
+          if ct.HasPath(subDep) {
+            changed = true
+          }
+        } 
 			}
 		}
 
-		modules[module.Path] = changed
+    modules[module.Path] = changed
 	}
 
 	return modules, nil
